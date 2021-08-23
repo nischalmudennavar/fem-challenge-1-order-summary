@@ -1,0 +1,78 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#e0e8ff;
+}
+.main-container {
+
+    height:100vh;
+    width:100vw;;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: url('../images/pattern-background-desktop.svg');
+    font-family: 'Red Hat Display', sans-serif;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:top center;
+
+
+    .card{
+        height:70vh;
+        width:450px;
+        background: #fff;
+        border-radius: 15px;;
+        box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.056);
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        .card-content{
+
+
+            height:auto;
+            width:100%;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            .card-title{
+                font-size: 30px;
+                font-weight:800;
+                margin-top:40px;
+                
+
+            }
+            .card-summary{
+                font-size: 18px;
+                margin:30px;
+                width:80%;
+                color:hsl(224, 23%, 55%);
+                font-weight: 500;
+            }
+
+        }
+
+
+    }
+.attribution{
+    position:absolute;
+    bottom:0;
+}
+
+
+}
