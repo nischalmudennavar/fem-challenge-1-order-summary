@@ -35,7 +35,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   background-image: url("../images/pattern-background-desktop.svg");
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top center;
@@ -81,6 +81,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 .main-container .card .card-content .card-title {
@@ -91,10 +92,104 @@ body {
 
 .main-container .card .card-content .card-summary {
   font-size: 18px;
-  margin: 30px;
+  margin: 23px;
   width: 80%;
   color: #7280a7;
   font-weight: 500;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.main-container .card .card-content .card-plan {
+  height: 70px;
+  width: 70%;
+  background: #f5f7ff;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.main-container .card .card-content .card-plan .card-plan-left {
+  height: 100%;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-container .card .card-content .card-plan .card-plan-left .plan-icon {
+  height: 150%;
+  margin-right: 10px;
+  margin-top: -7px;
+  margin-left: -10px;
+}
+
+.main-container .card .card-content .card-plan .card-plan-left .plan h4 {
+  font-size: 15px;
+  margin-top: -5px;
+}
+
+.main-container .card .card-content .card-plan .card-plan-left .plan h5 {
+  color: #939393;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main-container .card .card-content .card-plan .card-plan-right a {
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Red Hat Display", sans-serif;
+  color: #8c40e2;
+}
+
+.main-container .card .card-content .plan-payment {
+  font-size: 15px;
+  margin-top: 20px;
+  width: 70%;
+  height: 40px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #8c40e2;
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  -webkit-box-shadow: 0px 10px 20px rgba(126, 41, 224, 0.323);
+          box-shadow: 0px 10px 20px rgba(126, 41, 224, 0.323);
+}
+
+.main-container .card .card-content .plan-payment:hover {
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  background-color: #7024c6;
+}
+
+.main-container .card .card-content .plan-payment:active {
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  background-color: #7024c6;
+}
+
+.main-container .card .card-content .cancel-btn {
+  color: black;
+  background: none;
+  border: none;
+  font-weight: 800;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 .main-container .attribution {
